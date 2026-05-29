@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "roboto";
+  --background-color: #1f2937;
+  --hero-primary-size: 48px;
+  --hero-weight: 900;
+  --hero-color: #f9faf8;
+  --hero-secondary-text: 18px;
+  --hero-link-text: #e5e7eb;
+  --hero-logo-text: 24px;
+  --hero-logo-color: #f9faf8;
+  --button-color: #3882f6;
+  --info-font: 36px;
+  --info-color: #1f2937;
+  --info-weight: 900;
+  --qoute-bg-color: #e5e7eb;
+  --qoute-text: 36px;
+  --qoute-color: #1f2937;
+  --qoute-weight: 300;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+  background-color: var(--background-color);
+  color: var(--hero-color);
+}
+
+.navbar h1 {
+  font-size: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: var(--hero-color);
+  font-size: 15px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: #3882f6;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--hero-color);
+  padding: 4rem;
+}
+
+.hero-img {
+  width: 500px;
+  height: 250px;
+  padding: 0.5rem;
+}
+
+.hero h2 {
+  font-size: var(--hero-primary-size);
+  font-weight: var(--hero-weight);
+}
+
+.hero p {
+  font-size: var(--hero-secondary-text);
+}
+
+.hero-btn {
+  border: none;
+  background-color: var(--button-color);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.hero-btn:hover {
+  background-color: rgb(0, 119, 255);
+  scale: 1.03;
+  text-decoration: underline;
+}
+
+.random {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.random h2 {
+  text-align: center;
+  font-weight: var(--info-weight);
+}
+
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.cards {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.card {
+  border: 2px solid var(--button-color);
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(212, 229, 255);
+  padding: 5rem;
+  margin: 3rem 0;
+}
+
+.inspiration p {
+  font-style: italic;
+}
+
+.person {
+  text-align: right;
+  font-weight: bolder;
+}
+
+.action {
+  background-color: #ffffff;
+  padding: 5rem;
+}
+
+.action-time {
+  padding: 3rem;
+  border-radius: 10px;
+  background-color: var(--button-color);
+  color: var(--hero-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  border: 1px solid white;
+  background-color: var(--button-color);
+  color: white;
+  border-radius: 5px;
+  padding: 0.25rem 0.7rem;
+}
+
+.button:hover {
+  background-color: #0664fc;
+  scale: 1.03;
+}
+
+.footer {
+  background-color: var(--background-color);
+  color: white;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
