@@ -98,10 +98,11 @@ body {
 }
 
 .hero-btn {
+  font-size: large;
   border: none;
   background-color: var(--button-color);
   color: white;
-  padding: 0.5rem 0.75rem;
+  padding: 1rem 2rem;
   margin: 20px;
   border-radius: 12px;
 }
